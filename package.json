@@ -1,0 +1,26 @@
+{
+  "name": "snail-plugin-api",
+  "version": "1.1.0",
+  "description": "base api and typescript types for building snail plugins",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "snail",
+    "plugin",
+    "api",
+    "typescript"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Snail Team",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
