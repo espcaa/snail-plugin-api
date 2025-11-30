@@ -1,6 +1,6 @@
 {
   "name": "snail-plugin-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "base api and typescript types for building snail plugins",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
