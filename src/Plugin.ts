@@ -1,16 +1,9 @@
-export interface PluginSettingsSchema {
-  [key: string]: "string" | "number" | "boolean";
-}
-
-export interface Plugin<T = any> {
+export interface Plugin {
   id: string;
   name: string;
   description: string;
   version: string;
 
-  settings?: PluginSettingsSchema;
-  defaultSettings?: T;
-
-  start(settings: T): void;
+  start(): void;
   stop(): void;
 }
