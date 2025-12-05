@@ -1,6 +1,6 @@
 {
   "name": "snail-plugin-api",
-  "version": "1.2.0",
+  "version": "1.4.4",
   "description": "base api and typescript types for building snail plugins",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,6 +21,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "react": "^19.2.1",
     "typescript": "^5.9.3"
   }
 }
