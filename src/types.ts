@@ -62,6 +62,8 @@ export interface PluginListItem {
   description: string;
   version: string;
   enabled: boolean;
+  icon?: string;
+  author?: string;
 }
 
 export interface ThemeListItem {
@@ -70,6 +72,8 @@ export interface ThemeListItem {
   description?: string;
   version?: string;
   enabled: boolean;
+  icon?: string;
+  author?: string;
 }
 
 export interface SnailAPI {
