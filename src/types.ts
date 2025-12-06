@@ -88,6 +88,8 @@ export interface PluginManifest {
   name?: string;
   description?: string;
   version?: string;
+  icon?: string;
+  author?: string;
 }
 
 export interface ThemeManifest {
@@ -95,6 +97,8 @@ export interface ThemeManifest {
   name?: string;
   description?: string;
   version?: string;
+  icon?: string;
+  author?: string;
 }
 
 declare global {
