@@ -1,7 +1,4 @@
 export interface Plugin {
-  name: string;
-  description: string;
-  version: string;
   start(): void;
   stop(): void;
 }
@@ -84,6 +81,7 @@ export interface SnailAPI {
   disableTheme: (themeId: string) => boolean;
   enablePlugin: (pluginId: string) => boolean;
   disablePlugin: (pluginId: string) => boolean;
+  updateLoader: () => boolean;
 }
 
 export interface PluginManifest {
