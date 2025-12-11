@@ -17,7 +17,7 @@
   "files": [
     "dist"
   ],
-  "author": "Snail Team",
+  "author": "aliceee",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^24.10.1",

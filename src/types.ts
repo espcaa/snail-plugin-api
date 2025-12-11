@@ -82,6 +82,7 @@ export interface SnailAPI {
   enablePlugin: (pluginId: string) => boolean;
   disablePlugin: (pluginId: string) => boolean;
   updateLoader: () => boolean;
+  installPlugin: () => boolean;
 }
 
 export interface PluginManifest {
